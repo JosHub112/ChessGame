@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3273755779173315343}
   - component: {fileID: 5562582896125411289}
   - component: {fileID: -1092628935701612228}
+  - component: {fileID: 5055451970797432097}
   m_Layer: 0
   m_Name: ChessPiece
   m_TagString: Untagged
@@ -80,7 +81,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: f085f165136166d409d02bddf82d633a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -105,7 +106,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Chessman
   controller: {fileID: 0}
-  movePlate: {fileID: 0}
+  movePlate: {fileID: 5156846653514197257, guid: ffc47dc903143e64996c9c4c7a0da7df, type: 3}
   black_queen: {fileID: 21300000, guid: 3745dfb109dd33443ad3b54c1ae22377, type: 3}
   black_knight: {fileID: 21300000, guid: 5b62a5a0df535214d9d3d64e69178beb, type: 3}
   black_bishop: {fileID: 21300000, guid: 4341a34afe90f924186015b700d7b695, type: 3}
@@ -118,3 +119,49 @@ MonoBehaviour:
   white_king: {fileID: 21300000, guid: 69034879211f7964587bc456d6f6f07a, type: 3}
   white_rook: {fileID: 21300000, guid: e1ae029421b9429408d4d5d1a6edf525, type: 3}
   white_pawn: {fileID: 21300000, guid: f085f165136166d409d02bddf82d633a, type: 3}
+--- !u!61 &5055451970797432097
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6166688143767253051}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.44827586, y: 0.55172414}
+    newSize: {x: 0.13, y: 0.16}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 0.44827586, y: 0.55172414}
+  m_EdgeRadius: 0
